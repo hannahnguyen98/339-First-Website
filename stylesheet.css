@@ -1,0 +1,141 @@
+/* Starter CSS */
+
+* {
+    box-sizing: border-box; /* because it’s 2019, jen simmons */
+    padding: 0;
+    margin:1em;
+}
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+    text-rendering: optimizeLegibility;
+}
+
+h1 {
+    font-size: 2em;
+}
+body {
+    background:whitesmoke;
+    margin:0;
+    width: 100%;
+    }
+    
+    img {
+    display: block;
+    width: 100%;
+    }
+
+    /*cardS*/
+
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        background-color: thistle;
+        padding:0em;
+
+
+      }
+
+      /*individual hobby cards*/
+
+      .card {
+        background-color: white;
+        min-width: 400px;
+        max-width: 400px;
+        min-height: 400px;
+        border-radius: 1em;
+        border: 1px solid gray;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        margin: 2em;
+        justify-content: center;
+        position: relative;
+        top: 0;
+        margin:1em
+      }
+      .card:hover, .float:focus, .float:active {
+        -webkit-transform: translateY(-8px);
+        transform: translateY(-8px);
+      }
+      
+      .cardphoto {
+        max-height: 250px;
+        overflow: hidden;
+      }
+      
+      .cardarticle {
+        padding: 1rem;
+       max-width: fit-content;
+        flex-grow: 1;
+        flex-wrap: wrap;
+      }
+
+
+      /*navigation*/
+      @media only screen and (min-width: 60em) {
+        body {
+          background-color: thistle;
+          justify-content: space-between;
+        }
+        .logo {
+          margin-left: 20px;
+        }
+        /* put logo and main nav on same line */
+        .flex-container {
+          flex-direction: row;
+        }
+      
+        /* move the list to the right side of the browser */
+        .main-nav {
+          justify-content: flex-end;
+          padding: 20px;
+        }
+      
+        /* add some padding to give the main nav some breathing room */
+        .main-nav a {
+          padding: ;
+        }
+      }
+
+      li { 
+          color: thistle;
+      }
+
+      .flex-container {
+        
+/*welcome splash page*/
+
+
+
+
+
+
+
+    
+    
+    
+    
+    /* This is the CSS markup for commenting */
+    
+    /* A one-line comment */
+    
+    /*
+    A comment
+    which stretches
+    over several
+    lines
+    */
+    
+    /* The comment below is used to
+       disable specific styling */
+    
+    /*
+    span {
+      color: blue;
+      font-size: 1.5em;
+    }
+    */
+    /* highlight the item and use Command + slash to comment something out. */
