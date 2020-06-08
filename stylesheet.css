@@ -115,7 +115,6 @@ body {
       }
     
     
-/* because it’s 2019, jensimmons */
 * {
   box-sizing: border-box;
 }
@@ -198,25 +197,3 @@ img {
   background-attachment: fixed;
   overflow: hidden;
 }
-
-    /* This is the CSS markup for commenting */
-    
-    /* A one-line comment */
-    
-    /*
-    A comment
-    which stretches
-    over several
-    lines
-    */
-    
-    /* The comment below is used to
-       disable specific styling */
-    
-    /*
-    span {
-      color: blue;
-      font-size: 1.5em;
-    }
-    */
-    /* highlight the item and use Command + slash to comment something out. */
